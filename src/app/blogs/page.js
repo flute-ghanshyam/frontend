@@ -1,11 +1,10 @@
 import Layout from "../components/Layout";
-
+import BlogGrid from "../components/BlogGrid";
 export default function Blogs() {
   return (
     <Layout>
       <section style={{ padding: "2rem" }}>
-        <h1>Our Blogs</h1>
-        <p>Here are our latest blog posts.</p>
+        <BlogGrid />
       </section>
     </Layout>
   );
