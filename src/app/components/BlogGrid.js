@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import DOMPurify from "dompurify";
-const BlogGrid = (is_featured = false) => {
+const BlogGrid = () => {
   const [blogs, setBlogs] = useState([]);
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
